@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightpink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.counter {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  &__text {
+    font-size: 14px;
+  }
+}

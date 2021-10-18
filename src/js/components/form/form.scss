@@ -1,0 +1,67 @@
+.form {
+  background-color: lightgray;
+  width: 25%;
+  padding: 15px;
+  display: block;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 3px 3px 10px rgb(91, 103, 114, 0.2);
+  &__header {
+    // background-color: purple;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      height: 1px;
+      background-color: #ffffff;
+      width: 100%;
+      left: 0px;
+      top: 30px;
+    }
+  }
+
+  &__text {
+    background-color: gray;
+    color: black;
+  }
+  &__input {
+    padding: 10px;
+    margin-bottom: 0px;
+    border: none;
+    outline: none;
+    display: block;
+    color: lightslategray;
+    width: 100%;
+    &::placeholder {
+      color: lightsteelblue;
+      font-size: 12px;
+      font-style: italic;
+    }
+  }
+  #color {
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #submitbtn {
+    background-color: lightsteelblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid lightslategrey;
+    transition: all 300ms;
+    cursor: pointer;
+    &:hover {
+      background-color: lightslategray;
+      border-bottom: 2px solid lightsteelblue;
+    }
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}

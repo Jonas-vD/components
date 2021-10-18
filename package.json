@@ -1,0 +1,19 @@
+{
+  "name": "componentapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lighten-darken-color": "^1.0.0",
+    "parcel": "^2.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0"
+  }
+}
