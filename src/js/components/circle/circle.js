@@ -51,15 +51,15 @@ class circle {
     };
   }
   removeCircle() {
-    // let timer = 0;
-    // const interval = setInterval(() => {
-    //   timer++;
-    //   console.log(timer);
-    //   if (timer === 10) {
-    //     this.htmlRef.remove();
-    //     clearInterval(interval);
-    //   }
-    // }, 1000);
+    let timer = 0;
+    const interval = setInterval(() => {
+      timer++;
+      console.log(timer);
+      if (timer === 10) {
+        this.htmlRef.remove();
+        clearInterval(interval);
+      }
+    }, 1000);
   }
 }
 

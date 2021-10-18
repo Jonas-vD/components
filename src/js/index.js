@@ -45,6 +45,7 @@ document.querySelector(".form").addEventListener("submit", function (e) {
       border: border,
     })
   );
+  const circleElements = document.querySelectorAll(".circle").length;
   console.log(arrShapes.length);
   document.querySelector(".counter__text").textContent =
     "Aantal cirkels : " + arrShapes.length;
