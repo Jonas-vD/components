@@ -1,3 +1,3 @@
 #Components
 
-[Open project](innate-lake.surge.sh)
+<!-- [Open project](innate-lake.surge.sh) -->
